@@ -1,0 +1,9 @@
+create array [xx]
+
+for (int c = 0; c < xx - 1; c++)
+{     array [c] = newElement;
+      newElement = importNext();
+      
+      if (c == xx - 1) && (importNext() == TRUE)
+          doubleArray(array, xx);
+}
